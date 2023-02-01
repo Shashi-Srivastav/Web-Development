@@ -7,6 +7,42 @@
     <title>Payment Form</title>
 </head>
 <body>
-    
+    <form action="">
+        <h1>Payment Form</h1>
+        <h2>Contact Information</h2>
+        <p>Name: <input type="text" name="Name" id="Name" required  ></p>
+        <fieldset> <!--To set in group-->
+            <legend>Gender</legend required> <!--to give name--> 
+        <p>
+            Male <input type="radio" name="Gender" id="Male"> Female <input type="radio" name="Gender" id="Female">
+        </p></fieldset>
+        <p>
+           Adddress: <textarea name= "Address" id="address" cols="100" rows="8" required></textarea>
+        </p>
+        <p>
+            Email: <input type="email" name="Email" id="Email" required>
+        </p>
+        <P>
+            PinCode: <input type="password" name="pincode" id="pincode">
+        </P>
+        <h2>Payment Information</h2>
+        <P>
+            Card Types: <select name="Card_type" id="Card_type"required>
+                <option value="">--Select the card type--</option>
+                <option value="mastercard">mastercard</option>
+                <option value="visa">visa</option>
+            </select>
+        </P>
+        <p>
+            Card Number <input type="number" name="card number" id="card number">
+        </p>
+        <p>
+            Expiration Date <input type="date" name="expiration date" id="expiration date">
+        </p>
+        <p>
+            CVV  <input type="password" name="cvv" id="cvv">
+        </p>
+        <input type="submit" value="Pay Now">
+    </form>
 </body>
 </html>
