@@ -1,0 +1,25 @@
+/* element seeloctor */
+p{
+    color: red;
+    border: 2px solid red;
+}
+/* id selector */
+#first_id{
+        color: blue;
+}
+#second_id{
+   
+    color: rgb(34, 255, 0);
+}
+/* class selector */
+.first_class{
+    background: #6200ff;
+}
+.second_class{
+    color:mediumvioletred;
+}
+/* grouping selector */
+footer,span{
+    color: deeppink;
+    background-color: pink;
+}
