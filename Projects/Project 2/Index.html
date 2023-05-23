@@ -4,15 +4,22 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title> Food Ordering Website</title>
-    <link rel="icon" type="image/x-icon" href="/Web Development/Projects/Project 2/Img/logo.png"> <!--to add icon on title-->
+    <title>Food Ordering Website</title>
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="/Web Development/Projects/Project 2/Img/logo.png"
+    />
+    <!--to add icon on title-->
     <style>
       * {
         padding: 0;
         margin: 0;
       }
-      
+
       #navbar {
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
         position: sticky;
         display: flex;
         align-items: center;
@@ -20,9 +27,13 @@
         /* justify-content: center; */
       }
       #navbar ul {
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
         display: flex;
       }
       #navbar::before {
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
         content: "";
         background-color: black;
         position: absolute;
@@ -63,23 +74,26 @@
       }
       ul li a:hover {
         color: black;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
         background-color: white;
       }
       /* till now negavation done  */
 
       /* home section  */
-      #home{
+      #home {
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
         display: flex;
         flex-direction: column;
         padding: 3px 200px;
         height: 285px;
         justify-content: center;
         align-items: center;
-
       }
-      #home::before{
+      #home::before {
         content: "";
-        background: url('img/bg1.jpg')no-repeat center center/cover;
+        background: url("img/bg1.jpg") no-repeat center center/cover;
         position: absolute;
         height: 100%;
         width: 100%;
@@ -87,29 +101,31 @@
         opacity: 0.85;
       }
       /* Utitlity Classes  */
-      .h-primary{
+      .h-primary {
         font-size: 3rem;
         padding: 12px;
       }
-      #home h1{
-        
+      #home h1 {
         color: white;
         text-align: center;
-        
       }
-      #home p{
+      #home p {
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
         color: white;
         text-align: center;
         font-size: 1.7rem;
       }
-      .button{
+      .button {
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
         padding: 6px;
-    margin: 15px;
-    color: black;
-    background-color: white;
-    border-radius: 6px;
-    font-size: 0.8rem;
-    cursor: pointer;
+        margin: 15px;
+        color: black;
+        background-color: rgb(247, 239, 239);
+        border-radius: 6px;
+        font-size: 0.8rem;
+        cursor: pointer;
       }
     </style>
   </head>
@@ -126,9 +142,17 @@
     <section id="home">
       <h1 class="h-primary">Welcome To Zomato</h1>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas beatae labore iusto optio, id ea nemo odio nulla magnam alias sint autem. Eaque vero quae optio cum veritatis, neque et!
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quas beatae
+        labore iusto optio, id ea nemo odio nulla magnam alias sint autem. Eaque
+        vero quae optio cum veritatis, neque et!
+      </p>
+      <button class="button">Order Now</button>
 
-      </p><button class="button">Order Now</button>
-    </section>
+
+      <section class="services-container">
+        <h1 class="h-primary center">Our Services</h1>
+        <di class="services"><div class="box"></div></di>
+        
+      </section>
   </body>
 </html>
