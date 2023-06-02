@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Functions in JavaScript</title>
+</head>
+<body>
+    <div class="container">this is container</div>
+    <script>
+        function fxname(itemyoupass, seconditemyoupass = " default value is nothing pass"){
+            console.log(seconditemyoupass+ " this is how two item pass " + itemyoupass);
+            console.log(itemyoupass + " this is how fx work ");
+        }
+        function sum(a,b,c){
+            d = a + b+ c;
+            return d;
+        }
+        let name = "shashi";
+        let name1 = "srivastava";
+        let name2 = "ram";
+        let age = 21;
+        let returnval = sum(1,2,3);
+        fxname(name,age);
+        fxname(name1,age);
+        fxname(name2,age);
+        console.log(returnval);  
+
+    </script>
+</body>
+</html>
