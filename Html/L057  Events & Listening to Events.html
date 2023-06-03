@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Events & Listening to Events</title>
+</head>
+<body>
+    <div class="container">This is my heading<p id="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. At recusandae commodi minus natus illum magni expedita totam magnam quibusdam aliquid, reiciendis, eaque soluta cum aut neque sapiente facilis quo pariatur. Sequi necessitatibus veritatis obcaecati suscipit omnis! In quas officiis quos porro, facilis delectus excepturi, commodi facere cum veritatis minus eligendi beatae ipsum optio quis error fuga at asperiores et totam assumenda distinctio dolorum inventore cupiditate. Modi nam eos tenetur itaque corrupti soluta illum nulla optio, eaque repellat similique sint deserunt, voluptatem inventore necessitatibus recusandae excepturi porro a ducimus fugit molestias eius. Aliquam suscipit dolor eos nisi quo voluptatem placeat impedit, sint itaque, nam voluptatibus facere molestiae quidem expedita, perspiciatis tenetur temporibus! Commodi, adipisci incidunt. Qui blanditiis molestiae dicta molestias modi dolor ducimus, nostrum dignissimos minus nisi possimus inventore? Quasi, odio necessitatibus in ex animi cum commodi tenetur obcaecati fuga excepturi atque. Inventore dolorum iste repellat veniam, commodi animi odio sapiente illo, repellendus praesentium quo cum quasi, ullam necessitatibus tempore suscipit deserunt vitae adipisci quia soluta aperiam molestiae. Adipisci qui ratione pariatur culpa repellat aliquam vitae possimus neque, reiciendis impedit ipsum assumenda autem rem consequuntur illo corrupti, numquam nesciunt saepe, corporis illum. Nostrum alias dolorem, laborum voluptatum magnam commodi at optio corrupti cupiditate iste perferendis consequatur accusamus ut assumenda nemo repudiandae consectetur ab eveniet et suscipit unde officiis voluptas necessitatibus facere? Voluptatum sint, mollitia saepe molestiae cumque nam dolor vero porro earum temporibus ut unde, odit delectus incidunt pariatur distinctio, quaerat eligendi natus ad. Molestias sunt quidem quo aliquid voluptate repellendus, quasi earum vel minima quia quod nulla dignissimos in odio optio, eveniet necessitatibus! Perspiciatis odio aut sit! Delectus nobis optio consequatur, nostrum exercitationem id sunt possimus minus veniam sed perferendis repellendus eveniet ad neque laboriosam nisi iure ea ut tempore labore cupiditate odit in numquam aspernatur! Sunt, officia consequatur autem ad sequi, tempore accusantium beatae, earum reiciendis eius explicabo eligendi! Adipisci ipsum praesentium mollitia illum ipsa nostrum. Repellat magni itaque consequuntur, minus fugit provident eos nobis aliquam quaerat commodi quam doloremque laborum nam veniam sequi sit. Illo fugit corrupti voluptates itaque tempore distinctio dicta voluptatibus impedit assumenda! Rerum quisquam quae praesentium ratione repellat vero optio. Atque in dicta consectetur sit magnam beatae facilis exercitationem. Veniam accusantium tempora recusandae, maiores consequuntur sapiente cupiditate voluptate officia exercitationem ratione delectus id obcaecati culpa vitae eius sint dicta dignissimos maxime nobis quisquam! Debitis sunt ex perferendis quos earum, quia cumque iste iusto nemo cum.</p></div>
+    <button id="btn" onclick="toggleHide()">Show/Hide</button>
+    <script>
+        function toggleHide(){
+            let btn = document.getElementById('btn');
+            let para = document.getElementById('para');
+            if(para.style.display != 'none'){
+                para.style.display = 'none';
+            }
+            else{
+                para.style.display = 'block';
+            }
+        }
+    </script>
+</body>
+</html>
